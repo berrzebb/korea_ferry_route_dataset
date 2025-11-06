@@ -1,4 +1,4 @@
-본 데이터셋은 [한국 해양 교통 안전 공단 여객선 항로](https://www.data.go.kr/data/15126739/fileData.do)에서 제공되는 csv 형태의 데이터를 sqlite 형태의 데이터로 가공한 데이터 셋입니다.
+본 데이터셋은 [한국 해양 교통 안전 공단 여객선 항로](https://www.data.go.kr/data/15126739/fileData.do)에서 제공되는 csv 형태의 데이터를 sqlite 형태의 데이터로 가공한 데이터 셋입니다. 본 데이터의 기준 일자는 2025-08-12 입니다.
 
 원본 데이터는 {분류(ID),항로명,변침점순번,위도(LAT),경도(LON),변침점명,기항지명}의 Column 정보를 가지고 있으며,이를 가공하여, ports, routes, waypoints, route_ports의 테이블과, 위의 테이블들을 활용한 v_route_details 뷰를 가진 dataset을 생성하였습니다.
 
